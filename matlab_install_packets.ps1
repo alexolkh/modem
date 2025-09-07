@@ -20,127 +20,6 @@ if (-not (Test-Path $installPath)) {
 
 
 
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=5G_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=AUTOSAR_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Aerospace_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Aerospace_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Antenna_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Audio_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Automated_Driving_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Bioinformatics_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Bluetooth_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=C2000_Microcontroller_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Communications_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Computer_Vision_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Control_System_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Curve_Fitting_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=DDS_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=DSP_HDL_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=DSP_System_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Data_Acquisition_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Database_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Datafeed_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Deep_Learning_HDL_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Deep_Learning_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Econometrics_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Embedded_Coder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Financial_Instruments_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Financial_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Fixed-Point_Designer
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Fuzzy_Logic_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=GPU_Coder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Global_Optimization_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=HDL_Coder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=HDL_Verifier
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Image_Acquisition_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Image_Processing_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Industrial_Communication_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Instrument_Control_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=LTE_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Lidar_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Coder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Compiler
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Compiler_SDK
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Parallel_Server
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Production_Server
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Report_Generator
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Test
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Web_App_Server
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Mapping_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Medical_Imaging_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Mixed-Signal_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Model_Predictive_Control_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Model-Based_Calibration_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Motor_Control_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Navigation_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Optimization_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Parallel_Computing_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Partial_Differential_Equation_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Phased_Array_System_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Bug_Finder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Bug_Finder_Server
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Code_Prover
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Code_Prover_Server
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Test
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Powertrain_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Predictive_Maintenance_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=RF_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=RF_PCB_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=RF_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=ROS_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Radar_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Reinforcement_Learning_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Requirements_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Risk_Management_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Robotics_System_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Robust_Control_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Satellite_Communications_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Sensor_Fusion_and_Tracking_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=SerDes_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Signal_Integrity_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Signal_Processing_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=SimBiology
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=SimEvents
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Battery
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Driveline
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Electrical
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Fluids
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Multibody
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_3D_Animation
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Check
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Coder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Compiler
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Control_Design
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Coverage
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Design_Optimization
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Design_Verifier
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Desktop_Real-Time
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Fault_Analyzer
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_PLC_Coder
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Real-Time
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Report_Generator
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Test
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=SoC_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Spreadsheet_Link
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Stateflow
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Statistics_and_Machine_Learning_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Symbolic_Math_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=System_Composer
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=System_Identification_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Text_Analytics_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=UAV_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Vehicle_Dynamics_Blockset
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Vehicle_Network_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Vision_HDL_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=WLAN_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Wavelet_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Wireless_HDL_Toolbox
-.\mpm.exe install --release=R2024b --destination="$installPath" --products=Wireless_Testbench
-
-
 
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=6G_Exploration_Library_for_5G_Toolbox
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=ASIC_Testbench_for_HDL_Verifier
@@ -341,11 +220,11 @@ if (-not (Test-Path $installPath)) {
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=Wireless_Testbench_Support_Package_for_NI_USRP_Radios
 
 
-rem ########################################################################
-rem ## OPTIONAL FEATURES
-rem ########################################################################
-rem ##
-rem ## Uncomment the lines for the optional features you want to install or download.
+########################################################################
+## OPTIONAL FEATURES
+########################################################################
+##
+## Uncomment the lines for the optional features you want to install or download.
 
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=Airport_Scene
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=Construction_Site_Scene
@@ -367,3 +246,124 @@ rem ## Uncomment the lines for the optional features you want to install or down
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=ZalaZONE_Automotive_Proving_Ground_Hill_Tracks_Scene
 .\mpm.exe install --release=R2024b --destination="$installPath" --products=ZalaZONE_Automotive_Proving_Ground_Smart_City_Scene
 
+
+# дефолтные пакеты
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=5G_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=AUTOSAR_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Aerospace_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Aerospace_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Antenna_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Audio_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Automated_Driving_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Bioinformatics_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Bluetooth_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=C2000_Microcontroller_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Communications_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Computer_Vision_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Control_System_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Curve_Fitting_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=DDS_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=DSP_HDL_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=DSP_System_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Data_Acquisition_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Database_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Datafeed_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Deep_Learning_HDL_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Deep_Learning_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Econometrics_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Embedded_Coder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Financial_Instruments_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Financial_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Fixed-Point_Designer
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Fuzzy_Logic_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=GPU_Coder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Global_Optimization_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=HDL_Coder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=HDL_Verifier
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Image_Acquisition_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Image_Processing_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Industrial_Communication_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Instrument_Control_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=LTE_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Lidar_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Coder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Compiler
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Compiler_SDK
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Parallel_Server
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Production_Server
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Report_Generator
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Test
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=MATLAB_Web_App_Server
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Mapping_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Medical_Imaging_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Mixed-Signal_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Model_Predictive_Control_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Model-Based_Calibration_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Motor_Control_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Navigation_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Optimization_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Parallel_Computing_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Partial_Differential_Equation_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Phased_Array_System_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Bug_Finder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Bug_Finder_Server
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Code_Prover
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Code_Prover_Server
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Polyspace_Test
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Powertrain_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Predictive_Maintenance_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=RF_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=RF_PCB_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=RF_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=ROS_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Radar_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Reinforcement_Learning_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Requirements_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Risk_Management_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Robotics_System_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Robust_Control_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Satellite_Communications_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Sensor_Fusion_and_Tracking_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=SerDes_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Signal_Integrity_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Signal_Processing_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=SimBiology
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=SimEvents
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Battery
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Driveline
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Electrical
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Fluids
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simscape_Multibody
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_3D_Animation
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Check
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Coder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Compiler
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Control_Design
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Coverage
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Design_Optimization
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Design_Verifier
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Desktop_Real-Time
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Fault_Analyzer
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_PLC_Coder
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Real-Time
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Report_Generator
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Simulink_Test
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=SoC_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Spreadsheet_Link
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Stateflow
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Statistics_and_Machine_Learning_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Symbolic_Math_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=System_Composer
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=System_Identification_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Text_Analytics_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=UAV_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Vehicle_Dynamics_Blockset
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Vehicle_Network_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Vision_HDL_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=WLAN_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Wavelet_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Wireless_HDL_Toolbox
+# .\mpm.exe install --release=R2024b --destination="$installPath" --products=Wireless_Testbench
